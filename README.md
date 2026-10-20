@@ -3,11 +3,11 @@
 This is a personal project I built to learn the fundamentals of Deep Learning and Computer Vision. It uses a Convolutional Neural Network (CNN) built with PyTorch to recognize handwritten digits, along with a simple OpenCV script for real-time webcam testing.
 
 ## 🎯 Project Overview
-- **Basic CNN Architecture:** The model is based on the classic LeNet-5 structure, with a few modern additions like Batch Normalization and Dropout to improve training stability.
+**Basic CNN Architecture:** The model is based on the classic LeNet-5 structure, with a few modern additions like Batch Normalization and Dropout to improve training stability.
 <img width="1398" height="312" alt="image" src="https://github.com/user-attachments/assets/35ea155c-139a-40ab-b021-b20047e5e22a" />
-- **Webcam Integration:** A simple script (`camera.py`) that uses OpenCV to crop a Region of Interest (ROI), threshold the image, and pass it to the trained model for prediction.
-- **Optimization:** The model is trained using the Adam optimizer and a Cosine Annealing learning rate scheduler.
-- **Data Augmentation:** I applied basic transformations (slight rotation, scaling, and Gaussian blur) to the training data to help the model perform better when tested on real webcam feeds.
+**Webcam Integration:** A simple script (`camera.py`) that uses OpenCV to crop a Region of Interest (ROI), threshold the image, and pass it to the trained model for prediction.
+**Optimization:** The model is trained using the Adam optimizer and a Cosine Annealing learning rate scheduler.
+**Data Augmentation:** I applied basic transformations (slight rotation, scaling, and Gaussian blur) to the training data to help the model perform better when tested on real webcam feeds.
 
 ## 🧠 Model & Dataset
 
