@@ -193,22 +193,18 @@ The `camera.py` script captures webcam frames and processes handwritten digits t
 ```text
 model-cnn-digit-recognition/
 │
-├── training_notebook.ipynb    # CNN architecture, training and evaluation
+├── weights/             # Saved model weights
 │
-├── camera.py                  # Real-time webcam digit recognition
-│
-├── model.pth                  # Trained CNN model weights
-│
-├── assets/
-│   ├── loss_curve.png         # Training loss visualization
-│   └── accuracy_curve.png     # Training accuracy visualization
-│
-├── requirements.txt           # Project dependencies
-│
-└── README.md                  # Project documentation
+├── LICENSE              # Project license
+├── README.md            # Project documentation
+├── camera.py            # Real-time digit recognition using webcam
+├── dataset.py           # Dataset loading and preparation
+├── model.py             # CNN model architecture
+├── test_overall.py      # Model testing and evaluation
+├── train.py             # Model training script
+└── utils.py             # Utility functions
 ```
 
----
 
 ## 🚀 Getting Started
 
